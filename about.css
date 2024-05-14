@@ -1,0 +1,102 @@
+* {
+    font-family: montserrat;
+    margin: 0;
+}
+body{
+    background-image: linear-gradient( to bottom right, #ffa6e5 0%, #3631c5 36%, #3631c5 66%, #ffa6e5 100% );
+    
+}
+
+nav {
+    background: black;
+    height: 80px;
+    width: 100%;
+}
+
+.Logo {
+    color: white;
+    font-size: 3rem;
+    padding: 0 100px;
+    font-weight: bold;
+    position: relative;
+    top: 19px;
+    left: -78px;
+    font-size: 37px;
+}
+nav ul li a:hover{
+    color: white;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+    margin-top: 24px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 30px;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color:  rgb(219, 195, 195);
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 400px;
+    margin:135px auto;
+    padding: 20px;
+    background-image:  linear-gradient( to bottom right, rgb(245, 245, 245, 0.45),rgb(245, 245, 245, 0.5)) ;  
+    ;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    text-align: center;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.mark {
+    padding-top: 20px;
+    color: white;
+    background-color: black;
+    height: 40px;
+    margin-top: 212px;
+}
