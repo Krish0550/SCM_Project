@@ -10,7 +10,7 @@ body{
     font-family: montserrat;
 }
 nav{
-    background: #e03f3f;
+    background: black;
     height: 80px;
     width: 100%;
 }
@@ -24,6 +24,10 @@ nav{
     font-size: 3rem;
     padding: 0 100px;
     font-weight: bold;
+    position: relative;
+    top: 19px;
+    left: -78px;
+    font-size: 37px;
     }
 nav ul{
     float: right;
