@@ -22,6 +22,7 @@ nav {
     position: relative;
     top: 19px;
     left: -78px;
+    font-size: 37px;
 }
 
 nav ul {
@@ -70,6 +71,7 @@ nav ul li a:hover {
     flex: 1;
     background-color: #f5f5f5;
     padding-bottom: 20px;
+    border-radius: 50px;
 }
 
 .contact-info p {
@@ -91,5 +93,7 @@ nav ul li a:hover {
     color: white;
     background-color: black;
     height: 40px;
-    margin-top: 239px; /* This seems like an arbitrary margin, consider adjusting for better positioning */
+    margin-top: 239px;
+    position: relative;
+    top: 23px;/* This seems like an arbitrary margin, consider adjusting for better positioning */
 }
