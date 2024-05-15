@@ -3,9 +3,9 @@
     margin: 0;
 }
 body{
-    background-image: linear-gradient( to bottom right, #e612a7 0%, #05032a 36%, #dfdfe7 66%, #f016af 100% ); 
+    background-image: linear-gradient( to bottom right, #e612a7 0%, #05032a 36%, #dfdfe7 66%, #f016af 100%  );
+    
 }
-//this is created by krish
 
 nav {
     background: black;

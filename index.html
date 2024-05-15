@@ -34,7 +34,7 @@
         <p style="position: relative;
         right: 16px;"><span id="heading2"></span>:<span id="heading3"></span>:<span id="heading4"></span></p>
     </div>
- 
+    
     <div>
         <ul class="container">
             <li class="cont" id="cont1">
@@ -99,14 +99,20 @@
         <br>
     </footer>
     <script>
-        function displayCurrentTime() {
-            const time = new Date();
-            const hour = time.getHours().toString().padStart(2, '0');
-            const min = time.getMinutes().toString().padStart(2, '0');
-            const sec = time.getSeconds().toString().padStart(2, '0');
-            document.getElementById('current-time').textContent = `${hour}:${min}:${sec}`;
+        function hms() {
+            time = new Date();
+            let hour = time.getHours();
+            console.log(hour)
+            let min = time.getMinutes();
+            console.log(min)
+            let sec = time.getSeconds();
+            console.log(sec)
+            document.getElementById('heading2').innerHTML = hour;
+            document.getElementById('heading3').innerHTML = min;
+            document.getElementById('heading4').innerHTML = sec;
+        
         }
-        setInterval(displayCurrentTime, 1000);
+        setInterval(hms, 1000)
     </script>
 </body>
 
