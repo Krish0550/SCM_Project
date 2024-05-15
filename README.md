@@ -18,6 +18,8 @@ It hepls you in searching job according to your strength areas
   In the second version we have made some changes in the sign up page
   <li><b>Version 3</b></li>
   In the third version we have changed the theme of the project
+  <li><b>Version 4</b></li>
+  In the fourth version we have added clock using javascript
 </ul>
 
 # Requirements
