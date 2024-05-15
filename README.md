@@ -1,10 +1,10 @@
 # Team 12 
 
-Krish : 2310990552
+# Krish : 2310990552
 
-Krishna : 2310990551
+# Krishna : 2310990551
 
-Krishna Sharma : 2310990552
+# Krishna Sharma : 2310990552
 
 # Job Board Platform
 An online platform for searching jobs online anywhere.
