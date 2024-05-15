@@ -1,18 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <title>Job Journey</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FEE Project</title>
+    <title>Job Journey</title>
     <link rel="shortcut icon" href="faviconjj.png" type="image/x-icon">
     <link rel="stylesheet" href="index.css">
-
 </head>
-
 <body>
     <header>
+        <!-- Navigation -->
         <nav>
             <label class="Logo">JOB JOURNEY</label>
             <ul>
@@ -21,101 +18,69 @@
                 <li><a href="sign up.html">Sign Up</a></li>
                 <li><a href="contact.html">Contact</a></li>
                 <li><a class="active" href="about.html">About</a></li>
-                <li>    <div class="search">
-                    <div class="row">
+                <li>
+                    <div class="search">
                         <input type="text" id="input-box" placeholder="Search anything" autocomplete="off">
-                        <button><i class="fa-solid fa-magnifying-glass"></i></button></li>
-                        <div class="result-box">
-                        </div>
+                        <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </div>
+                </li>
             </ul>
-            <script src="autocomplete.js"></script>
         </nav>
         <script src="https://kit.fontawesome.com/62ee32fa3a.js" crossorigin="anonymous"></script>
     </header>
-    <div id="kr"  class="time">
-        <p style="position: relative;
-        right: 16px;"><span id="heading2"></span>:<span id="heading3"></span>:<span id="heading4"></span></p>
-    </div>
- 
-    <div>
+
+    <!-- Current Time Display -->
+    <div id="current-time" class="time"></div>
+
+    <!-- Main Content -->
+    <main>
         <ul class="container">
             <li class="cont" id="cont1">
-                <center>
-                    <h1 style="    position: relative;top: 85px;left: -41px;">
-                            OPIMIZE YOUR
-                        <br>WORKFORCE WITH JOB JOURNEY
-                    </h1>
-                </center>
-                <center>
-                    <p style="position: relative;top: 105px;left: -44px;">
-                        Power Internal talent mobility and workforce agility
-                        <br>with job journey skills-based AI Talent Marketplace
-                    </p>
-                </center>
+                <h1>OPTIMIZE YOUR<br>WORKFORCE WITH JOB JOURNEY</h1>
+                <p>Power Internal talent mobility and workforce agility<br>with job journey skills-based AI Talent Marketplace</p>
             </li>
-            <li class="cont" id="cont2" style="position: relative;top: 24px;right: 44px;">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/Y5hWlLoQ7Xc?si=1C_RMcVo3YMu-N17"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen></iframe>
+            <li class="cont" id="cont2">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Y5hWlLoQ7Xc?si=1C_RMcVo3YMu-N17" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </li>
         </ul>
-    </div>
-    <marquee behavior="" direction="" vspace="50" loop="unlimited" width="100%" class="marq" scrollamount="10"
-        bgcolor="black">
-       <a href="https://www.google.com"><img src="google.png" alt="nothing" class="1234" id="img1"></a>
-        <a href="https://www.apple.com"><img src="apple.png" alt="Nothing" class="12345" id="img2"></a>
-        <a href="https://www.facebook.com"><img src="facebook.png" alt="Nothing" class="face" id="img3"></a>
-        <a href="https://www.instagram.com"><img src="instagram.png" alt="Nothing" id="img4"></a>
-        <a href="https://www.amazon.in"><img src="amazon.png" alt="Nothing" id="img5"></a>
+    </main>
+
+    <!-- Partners Marquee -->
+    <marquee behavior="scroll" direction="left" loop="infinite" width="100%" class="marq" scrollamount="10" bgcolor="black">
+        <a href="https://www.google.com"><img src="google.png" alt="Google"></a>
+        <a href="https://www.apple.com"><img src="apple.png" alt="Apple"></a>
+        <a href="https://www.facebook.com"><img src="facebook.png" alt="Facebook"></a>
+        <a href="https://www.instagram.com"><img src="instagram.png" alt="Instagram"></a>
+        <a href="https://www.amazon.in"><img src="amazon.png" alt="Amazon"></a>
     </marquee>
-    <div style="background-color: linear-gradient( to bottom right, #ffa6e5 0%, #3631c5 36%, #3631c5 66%, #ffa6e5 100% );" id="pin">
-        <ul class="flex">
-            <li class="con" id="con1"><img src="carrerpath.jpeg" alt=""></li>
-            <li class="con" id="con2">
-                <center>
-                    <h1 class="hed">Power your skills-based
-                        <br>workforce for the future
-                    </h1>
-                </center>
-                <center>
-                    <p class="para">World-leading pioneers of the internal mobility
-                        <br>market, JOB JOURNEY has proven to optimize best-in
-                        <br>-class organizations at scale globally.
-                    </p>
-                </center>
-                <center>
-                    <p>JOB JOURNEY's AI engine matches your employees to internal career
-                        <br>opportunities, vacancies, learning, mentors, gigs and projects
-                        <br>based on their skills, talents, and values, whilst giving HR powerful
-                        <br>workforce insights and data to drive strategic business decisions.
-                    </p>
-                </center>
 
+    <!-- Company Description -->
+    <div id="pin" style="background: linear-gradient(to bottom right, #ffa6e5 0%, #3631c5 36%, #3631c5 66%, #ffa6e5 100%);">
+        <ul class="flex">
+            <li class="con" id="con1"><img src="carrerpath.jpeg" alt="Career Path"></li>
+            <li class="con" id="con2">
+                <h1 class="hed">Power your skills-based<br>workforce for the future</h1>
+                <p class="para">World-leading pioneers of the internal mobility<br>market, JOB JOURNEY has proven to optimize best-in<br>-class organizations at scale globally.</p>
+                <p>JOB JOURNEY's AI engine matches your employees to internal career<br>opportunities, vacancies, learning, mentors, gigs and projects<br>based on their skills, talents, and values, whilst giving HR powerful<br>workforce insights and data to drive strategic business decisions.</p>
             </li>
         </ul>
     </div>
 
+    <!-- Footer -->
     <footer id="footer" style="background-color: black;">
         <marquee class="mark" scrollamount="29">&copy;Job Journey 2023</marquee>
-        <br>
     </footer>
+
+    <!-- JavaScript for displaying current time -->
     <script>
-        function hms() {
-            time = new Date();
-            let hour = time.getHours();
-            console.log(hour)
-            let min = time.getMinutes();
-            console.log(min)
-            let sec = time.getSeconds();
-            console.log(sec)
-            document.getElementById('heading2').innerHTML = hour;
-            document.getElementById('heading3').innerHTML = min;
-            document.getElementById('heading4').innerHTML = sec;
-        
+        function displayCurrentTime() {
+            const time = new Date();
+            const hour = time.getHours().toString().padStart(2, '0');
+            const min = time.getMinutes().toString().padStart(2, '0');
+            const sec = time.getSeconds().toString().padStart(2, '0');
+            document.getElementById('current-time').textContent = `${hour}:${min}:${sec}`;
         }
-        setInterval(hms, 1000)
+        setInterval(displayCurrentTime, 1000);
     </script>
 </body>
-
 </html>
