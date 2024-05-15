@@ -1,16 +1,20 @@
+/* Reset default styles and set font family */
 body {
-    font-family: montserrat;;
+    font-family: Montserrat, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: linear-gradient( to bottom right, #ffa6e5 0%, #3631c5 36%, #3631c5 66%, #ffa6e5 100% );
+    background-image: linear-gradient(to bottom right, #ffa6e5 0%, #3631c5 36%, #3631c5 66%, #ffa6e5 100%);
     overflow-x: hidden;
 }
-nav{
+
+/* Header styling */
+nav {
     background: black;
     height: 80px;
     width: 100%;
 }
-.Logo{
+
+.Logo {
     color: white;
     font-size: 3rem;
     padding: 0 100px;
@@ -18,24 +22,32 @@ nav{
     position: relative;
     top: 19px;
     left: -78px;
-    font-size: 37px;
 }
-nav ul{
+
+nav ul {
     float: right;
     margin-right: 20px;
     margin-top: 24px;
 }
-nav ul li{
+
+nav ul li {
     display: inline-block;
     line-height: 30px;
     margin: 0 5px;
 }
-nav ul li a{
+
+nav ul li a {
     text-decoration: none;
-    color:  rgb(219, 195, 195);
+    color: rgb(219, 195, 195);
     font-size: 17px;
     text-transform: uppercase;
 }
+
+nav ul li a:hover {
+    color: white;
+}
+
+/* Contact section */
 .contact {
     display: flex;
     justify-content: space-around;
@@ -47,9 +59,7 @@ nav ul li a{
     position: relative;
     right: -90px;
 }
-nav ul li a:hover{
-    color: white;
-}
+
 .contact-form {
     flex: 1;
     padding-right: 244px;
@@ -74,10 +84,12 @@ nav ul li a:hover{
 .map {
     margin-top: 20px;
 }
-.mark{
+
+/* Footer styling */
+.mark {
     padding-top: 20px;
     color: white;
     background-color: black;
     height: 40px;
-    margin-top: 239px;
+    margin-top: 239px; /* This seems like an arbitrary margin, consider adjusting for better positioning */
 }
