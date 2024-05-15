@@ -1,6 +1,8 @@
+/* Resetting default margins */
 *{
     margin: 0;
 }
+/* Body styles */
     body{
     font-family: montserrat;
     background-image: linear-gradient( to bottom right, #ffa6e5 0%, #3631c5 36%, #3631c5 66%, #ffa6e5 100% );
