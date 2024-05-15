@@ -1,3 +1,11 @@
+*{
+    margin: 0;
+}
+    body{
+    font-family: montserrat;
+    background-image: linear-gradient( to bottom right, #e612a7 0%, #05032a 36%, #dfdfe7 66%, #f016af 100% );
+    overflow-x: hidden;
+}
 body{
     font-family: montserrat;
 }
