@@ -90,6 +90,7 @@ nav{
 nav ul{
     float: right;
     margin-right: 20px;
+    margin-top:19px;
 }
 nav ul li{
     display: inline-block;
@@ -102,7 +103,9 @@ nav ul li a{
     font-size: 17px;
     text-transform: uppercase;
 }
-
+nav ul li a:hover {
+    color:white;
+}
 .container{
     display: flex;
     list-style: none;
