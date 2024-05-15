@@ -18,37 +18,56 @@
 
     <nav>
         <label class="Logo">JOB JOURNEY</label>
-        <ul>
+       <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="Platforms.html">Platform</a></li>
             <li><a href="sign up.html">Sign Up</a></li>
             <li><a href="contact.html">Contact</a></li>
-            <li style="float:right"><a class="active" href="about.html">About</a></li>
+            <li ><a class="active" href="about.html">About</a></li>
+            <li><div class="search">
+                <div class="row">
+                    <input type="text" id="input-box" placeholder="Search anything" autocomplete="off">
+                    <button><i class="fa-solid fa-magnifying-glass"></i></button></li>
+                    <div class="result-box">
+                    </div>
         </ul>
+        <script src="autocomplete.js"></script>
     </nav>
+    <script src="https://kit.fontawesome.com/62ee32fa3a.js" crossorigin="anonymous"></script>
     <section class="contact">
         <div class="contact-form">
             <h2>Get in Touch</h2>
-            <form method="POST">
+            <form method="POST" style="font-size: 32px;
+                ">
                 <label for="name">Name</label>
-                <input type="text" id="name" name="name" required>
+                <input type="text" id="name" name="name" required style="height: 27px;    position: relative;
+                left: 49px;     border-radius: 15px;
+            ">
                 <br>
                 <label for="email">Email</label>
-                <input type="email" id="email" name="email" required>
+                <input type="email" id="email" name="email" required style="height: 27px;    position: relative;
+                left: 49px;     border-radius: 15px;
+            ">
                 <br>
                 <label for="message">Message</label><br>
-                <textarea id="message" name="message" rows="4" required></textarea>
+                <textarea id="message" name="message" rows="4" required style="position: relative;
+                left: 130px;
+                top: -26px;    border-radius: 15px;
+            "></textarea>
                 <br>
-                <button onclick="hey()" type="submit">Send</button>
+                <button onclick="hey()" type="submit" style="    height: 38px;
+                width: 311px;
+                border-radius: 10px;
+                font-size: 20px;">Send</button>
             </form>
         </div>
         <div class="contact-info">
             <h2>Contact Information</h2>
             <address style="    position: relative;
             right: -15px;">
-                <p><strong>Address:</strong> Chitkara University, Rajpura</p>
-                <p><strong>Email:</strong> <a href="https://chitkara.edu.in">ChitkaraU.com</a></p>
-                <p><strong>Phone:</strong> <a href="tel:+123456789">+123 456 789</a></p>
+                <p style="font-size: 2em; padding: 8px;"><strong>Address:</strong> Chitkara University, Rajpura</p>
+                <p style="font-size: 2em; padding: 8px;"><strong>Email:</strong> <a href="https://chitkara.edu.in" target="_blank">ChitkaraU.com</a></p>
+                <p style="font-size: 2em; padding: 8px;"><strong>Phone:</strong> <a href="tel:09501105715">09501105715</a></p>
             </address>
             <div class="map">
             </div>
